@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const video = card.querySelector("video");
         
         card.addEventListener("mouseenter", () => {
-            if(video.src && video.readyState >= 3) { // Se asegura de que puede reproducirse
+            if(video.src) { 
                 video.play().catch(e => console.log("Autoplay prevented:", e));
             }
         });
@@ -63,7 +63,8 @@ document.addEventListener("DOMContentLoaded", () => {
         card.addEventListener("mouseleave", () => {
             if(video.src) {
                 video.pause();
-                video.currentTime = 0;
+                // Si prefieres que el vídeo no vuelva al principio al quitar el ratón, borra la siguiente línea
+                video.currentTime = 0; 
             }
         });
     });
