@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const cardHTML = `
             <div class="card">
                 <div class="card-media">
-                    <img src="${project.image_fallback}" alt="${project.title}">
                     <video src="${project.video_hover}" loop muted playsinline></video>
                 </div>
                 <div class="card-content">
