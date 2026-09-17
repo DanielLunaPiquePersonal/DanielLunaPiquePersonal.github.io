@@ -7,7 +7,7 @@ const myProjects = [
         technologies: ["Unity 6", "C#", "Netcode for GameObjects", "Unity Relay", "Eller's Algorithm", "NavMesh"],
         short_description: "A 3D cooperative survival FPS featuring procedural level generation and robust multiplayer architecture.",
         image_fallback: "assets/img-tfg.jpg",
-        video_hover: "assets/PandemicWar.mp4",
+        video_hover: "./assets/PandemicWar.mp4",
         detailed_description: `
             <p><strong>Pandemic War</strong> is a 3D cooperative survival FPS built in Unity 6. Set in a post-apocalyptic military base, the game challenges players to survive scaling waves of infected agents while solving complex environmental puzzles to assemble a technological relic known as the Spear.</p>
             
@@ -31,7 +31,7 @@ const myProjects = [
         technologies: ["Unity 3D", "C#", "A* Pathfinding", "Finite State Machine (FSM)", "AI Sensors"],
         short_description: "A 3D stealth and strategy game featuring a custom-built Object-Oriented Finite State Machine and A* pathfinding for dynamic NPC coordination.",
         image_fallback: "assets/img-pinguino.jpg",
-        video_hover: "assets/pinguinosdemadagascar.mp4",
+        video_hover: "./assets/pinguinosdemadagascar.mp4",
         detailed_description: `
             <p><strong>Comando Pingüino</strong> is a 3D stealth and strategy game where the player takes the role of an intelligent penguin escaping a military base (Area 51) to reach Antarctica. The game features a dynamic environment where enemies react to visual and auditory stimuli, utilizing a strict stealth mechanic where being caught resets the progression.</p>
             
@@ -53,7 +53,7 @@ const myProjects = [
         technologies: ["Unity 3D", "C#", "Hexagonal Grid Math", "GOAP (AI)", "FSM"],
         short_description: "A 3D turn-based strategy game inspired by Catan and Civilization. Focused on hexagonal grid interactions, unit lifecycle, and action execution.",
         image_fallback: "assets/img-katan.jpg",
-        video_hover: "assets/katan.mp4",
+        video_hover: "./assets/katan.mp4",
         detailed_description: `
             <p><strong>Katan Hex Domination</strong> is a 3D turn-based strategy and resource management game[cite: 1, 2]. Competing players race to accumulate 10 victory points through territorial expansion, resource gathering, and military superiority on a procedurally handled hexagonal map[cite: 2, 3].</p>
             
@@ -77,7 +77,7 @@ const myProjects = [
         technologies: ["Neural Networks", "Machine Learning", "C#", "Unity"],
         short_description: "Developed a neural network-driven AI agent capable of autonomous combat behaviors within a classified shooter environment.",
         image_fallback: "assets/img-mlbot.jpg",
-        video_hover: "assets//BotFPS.mp4",
+        video_hover: "./assets//BotFPS.mp4",
         detailed_description: `
             <p><strong>Neural Network Combat Bot</strong> is an advanced Artificial Intelligence project focused on machine learning and autonomous agent behavior.</p>
             
@@ -101,7 +101,7 @@ const myProjects = [
         technologies: ["Unity 2D", "C#", "GameManager Architecture", "Dialogue Systems", "Level Design"],
         short_description: "Lead Programmer for a collaborative game, responsible for the core architecture, scene management, and a custom side-scrolling minigame.",
         image_fallback: "assets/img-villores.jpg",
-        video_hover: "assets/videopromocionalBruixotDeVilloresYT.mp4",
+        video_hover: "./assets/videopromocionalBruixotDeVilloresYT.mp4",
         detailed_description: `
             <p>Developed during my third year of university, this collaborative project represents my first major experience leading the technical development of a team-based game.</p>
             
